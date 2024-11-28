@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles/globals.css'
-import App from './pages/app'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import App from '@/pages/app'
 
 const router = createBrowserRouter([
   {
