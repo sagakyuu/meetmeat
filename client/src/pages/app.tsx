@@ -1,5 +1,8 @@
+import Base from '@/components/ui/Base'
+import { cn } from '@/lib/utils'
+
 const App = () => {
-  return <div className="text-3xl text-red-500 ">Hello World</div>
+  return <Base></Base>
 }
 
 export default App
